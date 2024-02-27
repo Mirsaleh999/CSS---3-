@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 70%;
+  height: 500px;
+  display: flex;
+}
+.inner {
+  width: 50%;
+  height: 100%;
+  background-color: red;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.inner:nth-child(2) {
+  background-color: yellow;
+}
+
+.item{
+width: 50%;
+height: 50%;
+background-color: rgb(255, 251, 0);
+}
+
+.item:nth-child(2) {
+  background-color: rgb(0, 37, 158);
+}
+
+.item:nth-child(3) {
+  background-color: rgb(0, 128, 43);
+}
+.item:nth-child(4) {
+  background-color: rgb(68, 0, 77);
+}

@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  font-size: 20px;
+  /* justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+}
+
+.main4 {
+  width: 25%;
+  height: 501px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: rgb(155, 177, 203);
+  flex-wrap: nowrap;
+  align-content: space-around;
+  align-items: flex-end;
+  flex-direction: column-reverse;
+}
+
+.main4 div:nth-child(1) {
+  background-color: rgb(68, 30, 106);
+}
+
+.main4 div:nth-child(2) {
+  background-color: rgb(224, 215, 51);
+}
+
+.main4 div:nth-child(3) {
+  background-color: rgb(11, 191, 53);
+}
+
+.main1 {
+  width: 25%;
+  height: 501px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(155, 177, 203);
+  flex-wrap: nowrap;
+  align-content: space-around;
+  align-items: center;
+  flex-direction: column-reverse;
+}
+
+.main1 div:nth-child(1) {
+  background-color: rgb(68, 30, 106);
+}
+
+.main1 div:nth-child(2) {
+  background-color: rgb(224, 215, 51);
+}
+
+.main1 div:nth-child(3) {
+  background-color: rgb(11, 191, 53);
+}
+
+.main2 {
+  width: 25%;
+  height: 501px;
+  margin: 10px;
+  display: flex;
+  background-color: rgb(155, 177, 203);
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-content: space-around;
+  align-items: center;
+  flex-direction: column-reverse;
+}
+.main2 div:nth-child(1) {
+  background-color: rgb(68, 30, 106);
+}
+
+.main2 div:nth-child(2) {
+  background-color: rgb(224, 215, 51);
+}
+
+.main2 div:nth-child(3) {
+  background-color: rgb(11, 191, 53);
+}
+
+.main3 {
+  width: 25%;
+  height: 501px;
+  margin: 10px;
+  display: flex;
+  background-color: rgb(155, 177, 203);
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-content: space-around;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column-reverse;
+}
+
+.main3 div:nth-child(1) {
+  background-color: rgb(68, 30, 106);
+}
+
+.main3 div:nth-child(2) {
+  background-color: rgb(224, 215, 51);
+}
+
+.main3 div:nth-child(3) {
+  background-color: rgb(11, 191, 53);
+}
+
+.main5 {
+  width: 25%;
+  height: 501px;
+  margin: 10px;
+  display: flex;
+  background-color: rgb(155, 177, 203);
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column-reverse;
+}
+
+.main5 div:nth-child(1) {
+  background-color: rgb(68, 30, 106);
+}
+
+.main5 div:nth-child(2) {
+  background-color: rgb(224, 215, 51);
+}
+
+.main5 div:nth-child(3) {
+  background-color: rgb(11, 191, 53);
+}

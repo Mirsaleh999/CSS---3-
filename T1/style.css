@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.item {
+  border: 3px solid black;
+  width: 30%;
+  height: 90px;
+  margin: 1%;
+  align-items: center;
+  justify-content: center;
+
+}
+.main div:nth-child(1) {
+  background-color: rgb(51, 219, 224);
+}
+
+.main div:nth-child(2) {
+  background-color: rgb(224, 86, 51);
+}
+.main div:nth-child(3) {
+  background-color: rgb(131, 155, 156);
+}
+.main div:nth-child(4) {
+  background-color: rgb(59, 205, 76);
+}
+.main div:nth-child(5) {
+  background-color: rgb(224, 126, 51);
+}
+.main div:nth-child(6) {
+  background-color: rgb(0, 71, 74);
+}
