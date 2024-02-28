@@ -11,18 +11,16 @@ header {
   width: 100%;
   height: 100px;
   background-color: #2c3e50;
-
+  position: fixed;
 }
 
-.section1{
+.section1 {
   position: sticky;
-
 }
 .logo {
   width: 30%;
   height: 100%;
   text-align: center;
-
 }
 
 nav {
@@ -30,73 +28,120 @@ nav {
   height: 100%;
   display: flex;
   justify-content: flex-end;
-
 }
 
 .logo h2 {
   line-height: 100px;
   color: white;
+  cursor: pointer;
 }
 
-nav ul{
-display: flex;
-
+nav ul {
+  display: flex;
 }
 
-li{
-list-style: none;
-font-size: 25px;
-font-weight: bold;
-line-height: 100px;
-padding: 5px 10px;
+li {
+  list-style: none;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 100px;
+  padding: 5px 10px;
 }
 
 nav a {
   cursor: pointer;
   text-decoration: none;
-  color: #fff; 
+  color: #fff;
 }
 
 nav a:hover {
-  color: #00b6f3; 
+  color: #00b6f3;
 }
 
-.section2{
-width: 100%;
-height: 86vh;
-background-color:rgb(26, 188, 156);
-text-align: center;
-
+.section2 {
+  width: 100%;
+  height: 86vh;
+  background-color: rgb(26, 188, 156);
+  text-align: center;
 }
 
-.image{
-width: 30%;
-margin: auto;
-height: 300px;
-padding: 60px 0px 50px 0px;
+.image {
+  width: 30%;
+  margin: auto;
+  height: 300px;
+  padding: 60px 0px 50px 0px;
 }
 
-.image img{
-
-width: 100%;
-height: 100%;
-
+.image img {
+  width: 100%;
+  height: 120%;
 }
-.section2 strong{
-font-size: 40px;
-color: #fff;
-
+.section2 strong {
+  font-size: 60px;
+  color: #fff;
 }
-
-.icon{
-width: 30%;
-height: 50px;
-background-color: red;
-margin: auto;
+.section2 h5 {
+  font-size: 20px;
+  color: #fff;
+  margin: 25px;
 }
 
-.section3{
-width: 100%;
-height: 100px;
-
+.icon {
+  width: 24%;
+  height: 50px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  margin-top: 30px;
 }
+
+.star_line {
+  width: 150px;
+  height: 4px;
+  background-color: rgb(255, 255, 255);
+}
+
+.icon i {
+  font-size: 40px;
+}
+
+.section3 {
+  width: 100%;
+  height: 500px;
+  padding: 9rem 0;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.section3 h2 {
+  font-size: 50px;
+  color: #4a4444;
+}
+
+.section3,
+.icon1 {
+  width: 24%;
+  height: 50px;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #4a4444;
+  margin-top: 30px;
+}
+
+.icon1 > div {
+  width: 500px;
+  height: 4px;
+  background-color: rgb(62, 60, 60);
+}
+
+.icon1 i {
+  font-size: 40px;
+}
+
+
+
+
